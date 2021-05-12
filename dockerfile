@@ -15,3 +15,4 @@ FROM busybox
 COPY --from=builder /go/src/app/hello /
 
 ENTRYPOINT /hello
+
